@@ -9,6 +9,10 @@ font-weight: normal;
 color: white;
 }
 
+body {
+    height: 100%;
+}
+
 a {
 display: block;
 text-decoration: none;
@@ -25,6 +29,23 @@ h1 {
     text-align: center;
 }
 
+button {
+
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+ul {
+    border: solid blue;
+    padding: 10px;
+    box-shadow: 2px 4px pink;
+}
+
+ul:hover {
+    cursor: pointer;
+}
+
 ul a {
     border: solid red;
     padding: 10px;
@@ -35,10 +56,24 @@ ul a:hover{
     cursor: pointer;
 }
 
+p {
+    border: solid red;
+    text-align: center;
+    padding: auto;
+}
+
 header section {
     text-align: right;
     padding-right: 15px;
     font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    display: block;
+    padding-top: 500px;
+    align-items: center;
 }
 
 .container {
@@ -64,3 +99,15 @@ header section {
 #timer {
     padding-right: 20px;
 }
+
+/* @media only screen and (min-width: 992px) {
+    body {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        width: 30%;
+   }
+} */
